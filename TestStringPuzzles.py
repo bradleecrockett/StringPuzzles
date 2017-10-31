@@ -17,16 +17,16 @@ class TestStringPuzzles(TestCase):
         self.assertEqual(cat_dog('1cat1cadodog'), True)
 
     def test_cat_dog6(self):
-        self.assertEqual(cat_dog(cat_dog('cat')), False)
+        self.assertEqual(cat_dog('cat'), False)
 
     def test_cat_dog7(self):
-        self.assertEqual(cat_dog(cat_dog('ca')), True)
+        self.assertEqual(cat_dog('ca'), True)
 
     def test_cat_dog8(self):
-        self.assertEqual(cat_dog(cat_dog('c')), True)
+        self.assertEqual(cat_dog('c'), True)
 
     def test_cat_dog9(self):
-        self.assertEqual(cat_dog(cat_dog('')), True)
+        self.assertEqual(cat_dog(''), True)
 
     def test_cat_dog10(self):
         self.assertEqual(cat_dog('catxdogxdogxcat'), True)
