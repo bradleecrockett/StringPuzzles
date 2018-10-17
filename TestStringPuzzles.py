@@ -1,6 +1,9 @@
 from unittest import TestCase
+
 from StringPuzzles import cat_dog
+from StringPuzzles import count_code
 from StringPuzzles import other_end
+
 
 class TestStringPuzzles(TestCase):
     # Cat Dog Tests
@@ -67,3 +70,22 @@ class TestStringPuzzles(TestCase):
 
     def test_other_end12(self):
         self.assertEqual(other_end('yz', '12xz'), False)
+
+    # +++ Count Code Tests +++
+    def test_count_code1(self):
+        self.assertEqual(count_code('aaacodebbb'), 1)
+
+    def test_count_code2(self):
+        self.assertEqual(count_code('cozexxcope'), 2)
+
+    def test_count_code3(self):
+        self.assertEqual(count_code('xxcozeyycop'), 1)
+
+    def test_count_code4(self):
+        self.assertEqual(count_code('AAcodeBBcoleCCccoreDD'), 3)
+
+    def test_count_code5(self):
+        self.assertEqual(count_code('abcxyz'), 0)
+
+    def test_count_code6(self):
+        self.assertEqual(count_code('coe'), 0)
