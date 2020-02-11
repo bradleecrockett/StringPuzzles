@@ -10,7 +10,7 @@
 #
 
 
-# Write a program that takes in a string parameter and returns the boolean value
+# Write a function that takes in a string parameter and returns the boolean value
 # True if the string has the same number of occurrences of 'cat' as it does occurrences
 # of 'dog' and False if it does not.
 def cat_dog(mystr):
@@ -44,7 +44,7 @@ def main():
     print("cat_dog Testing")
     print("Expected: True \t\tResult: ", cat_dog("adogandacat"))
     print("Expected: False \tResult: ", cat_dog("more dogs than cats because dogs are better"))
-    print("Expected: True \tResult: ", cat_dog("The best dogs can catch frisbees"))
+    print("Expected: True \t\tResult: ", cat_dog("The best dogs can catch frisbees"))
 
     print("\nother_end Testing")
     print("Expected: True \t\tResult: ", other_end("endthesame", "Same"))
@@ -58,4 +58,5 @@ def main():
     print("Expected: 0 \t\tResult: ", count_code("abc"))
 
 
-main()
+if __name__ == "__main__":
+    main()
