@@ -16,7 +16,7 @@
 def cat_dog(mystr):
     # ++ Your code here ++
 
-    return 0
+    return -1
 
 
 # Given two strings, return True if either of the strings appears at the very end of the other string,
@@ -25,7 +25,7 @@ def cat_dog(mystr):
 def other_end(str1, str2):
     # ++ your code here ++
 
-    return 0
+    return -1
 
 
 # Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter
