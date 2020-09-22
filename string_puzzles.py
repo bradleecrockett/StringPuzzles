@@ -1,7 +1,7 @@
 # Name: First Last
 # Date:
 # Period:
-# Lab: StringPuzzles.py
+# Lab: string_puzzles.py
 # Description: Two string processing puzzles that use the Python string methods and for loops.
 #
 #     Style - Code format, whitespace and PEP-8 style is followed making code easy to read.
